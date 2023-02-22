@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Practica de Esdeveniments</title>
+        <script src="js.js"></script>
+        <link href="./css.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="primero">
+            <img
+                src="./gokuSSJ.jpg"
+                onclick="hanFetClick(true);"
+                id="img"
+                width="450"
+                height="450"
+            />
+            <br />
+            <input
+                type="button"
+                onclick="hanFetClick(false);"
+                value="boton"
+                id="button"
+            />
+            <br /><br />
+        </div>
+
+        <div id="segundo">
+            <br />
+            <input
+                type="button"
+                onclick="añadirTareasClick();"
+                id="button_add_tareas"
+                value="Añadir Tareas"
+            />
+            <p id="0"></p>
+            <p id="1"></p>
+            <p id="2"></p>
+            <p id="3"></p>
+            <p id="4"></p>
+        </div>
+    </body>
+</html>

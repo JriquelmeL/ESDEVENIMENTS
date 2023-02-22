@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+#primero {
+    background-color: darkgrey;
+}
+#segundo {
+    background-color: dodgerblue;
+}
+input {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid black;
+}
